@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartpage html</title>
+    <style>
+
+        #container{
+            margin: auto;
+            width: 70%;
+        }
+        #container>p{
+            font-size: 30px;
+            color: dimgrey;
+        }
+        #lovedItems {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+
+        }
+        #lovedItems>div{
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        }
+        #cont1{
+
+            grid-template-columns: repeat(2,1fr);
+
+        }
+        #recentView{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+        #recentView>div{
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        }
+        #priceShow{
+            border: 1px solid blue;
+            width: 200px;
+            height: 400px;
+        }
+        #main1{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+
+    </div>
+    
+    <div id="container">
+        <p>Shopping Cart</p>
+        <div id="main1">
+            <div id="cont1">
+                <div id="cont2">
+    
+                </div>
+                <h3>Things We Know You'll Love</h3>
+                <div id="lovedItems">
+    
+                </div>
+                <h3>Recently Viewed</h3>
+                <div id="recentView">
+    
+                </div>
+                <div >
+    
+                </div>
+            </div>
+            <div id="priceShow">
+            
+    
+            </div>
+        </div>
+        
+        
+
+    </div>
+    
+</body>
+</html>
+<script src="cartpage.js" >
+
+</script>
