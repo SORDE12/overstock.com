@@ -1,0 +1,64 @@
+<!-- 
+               Furniture
+               Rugs
+               Decor
+               Bedding
+               Home Improvement       
+               Kitchen
+               Outdoor    
+               Jewelry                
+               Lightning                   
+               Holiday & Gifts                   
+               Kids & Baby                
+               More Categories          
+               Sales & Deals
+                 
+
+
+                <div id="furniture" class="dropdown-content">
+                    <div class="row">
+                        <div class="column">
+                            <h3>Living Room Furniture</h3>
+                            <a href="#">Sofas & Couches</a>
+                            <a href="#">Sectionals</a>
+                            <a href="#">Benches</a>
+                            <a href="#">Ottomans & Poufs</a>
+                            <a href="#">Accent Chairs</a>
+                            <a href="#">Recliners</a>
+                            <a href="#">Coffee & Accent Tables</a>
+                            <a href="#">TV Stands</a>
+                        </div>
+                        <div class="column">
+                            <h3>Patio & Outdoor Furniture</h3>
+                            <a href="#">Patio Furniture Sets</a>
+                            <a href="#">Sofas, Chairs & Sectionals</a>
+                            <a href="#">Dining Sets</a>
+                            <a href="#">Coffee & Side Tables</a>
+                            <a href="#">Chaise Lounges</a>
+                            <a href="#">Adirondack Chairs</a>
+
+                        </div>
+                        <div class="column">
+                            <h3>Bedroom Furniture</h3>
+                            <a href="#">Beds</a>
+                            <a href="#">Bedroom Sets</a>
+                            <a href="#">Headboards</a>
+                            <a href="#">Bed Frames</a>
+                            <a href="#">Dressers & Chests</a>
+                            <a href="#">Nightstands</a>
+                            <a href="#">Armoires & Wardrobes</a>
+                            <a href="#">Mattresses</a>
+                            <a href="#">Kids Beds</a>
+                        </div>
+
+                        <div class="column">
+                            <h3>Office Furniture </h3>
+                            <a>Desks</a>
+                            <a>Office Chairs</a>
+                            <a>Small Space Desks</a>
+                            <a>Office Shelves & Storage</a>
+                            <a>File Cabinets</a>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
