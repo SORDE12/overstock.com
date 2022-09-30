@@ -1,3 +1,23 @@
+const header=()=>{
+    return ` <div id="nav1">
+    <div id="nav1_center">
+        <div id="nav1_p">
+            <p>Sign up to receive our latest <b>deals</b> and get a <b>10% off coupon.</b></p>
+            <span class="material-symbols-outlined">expand_more</span>
+        </div>
+    </div>
+    <div id="close">
+        <span class="material-symbols-outlined">close</span>
+    </div>
+</div>
+<!-- nav2 -->
+<div id="nav2">
+    <p>Ships to:</p>
+    <img src="./images/indiaflag.png" alt="india flag image">
+    <p>INDIA</p>
+</div>`
+}
+
 const navbar=()=>{
     return` <div id="nav3">
     <div id="left_d">
@@ -27,7 +47,7 @@ const navbar=()=>{
 </div>
 <!-- header part ends here -->
 <div id="nav4">
-    <li id="furniture"><a href="">Furniture</a>
+    <li id="furniture"><a href="furniture.html">Furniture</a>
         <div>
             <div id="dropdown_list">
                 <div>
@@ -128,7 +148,7 @@ const navbar=()=>{
             </div>
         </div>
     </li>
-    <li id="rugs"><a href="">Rugs</a>
+    <li id="rugs"><a href="rug.html">Rugs</a>
         <div>
             <div id="dropdown_list">
                 <div>
@@ -229,7 +249,7 @@ const navbar=()=>{
             </div>
         </div>
     </li>
-    <li id="decor"><a href="">Decor</a>
+    <li id="decor"><a href="decor.html">Decor</a>
         <div>
             <div id="dropdown_list">
                 <div>
@@ -1098,7 +1118,7 @@ const navbar=()=>{
             </div>
         </div>
     </li>
-    <li id="sales"><a href="">Sales & Deals</a>
+    <li id="sales"><a href=""  style="color:#C7202C;">Sales & Deals</a>
         <div>
             <div id="drop_sale">
                 <div id="set_img">
@@ -1136,4 +1156,18 @@ const navbar=()=>{
 </div>
 <!-- main navbar ends here -->`
 }
-export default navbar
+
+
+const less_deal=()=>{
+    return `  <div>
+    <h3>LESS SHOW. MORE ON-THE-GO.</h3>
+    <p> DOWNLOAD THE APP</p>
+</div>
+<div>
+    <h3>TRENDING DEALS</h3>
+    <p> HALLOWEEN,ARMOIRES,BARREL CHAIRS,PERSIAN RUGS</p>
+</div>`
+}
+
+
+export {header,navbar,less_deal}
