@@ -23,10 +23,13 @@
         }
         #lovedItems>div{
             box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            width: 40%;
+        }
+        #lovedItems>div>img{
+            width: 90%;
         }
         #cont1{
-
-            grid-template-columns: repeat(2,1fr);
+            flex: 3;
 
         }
         #recentView{
@@ -36,16 +39,65 @@
         }
         #recentView>div{
             box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            width: 30%;
+        }
+        #recentView>div>img{
+            width: 100%;
         }
         #priceShow{
-            border: 1px solid blue;
-            width: 200px;
-            height: 400px;
+            
+            flex: 1;
+            padding-left: 10px;
+            padding-right: 10px;
         }
         #main1{
+            display: flex;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        #price{
             display: grid;
             grid-template-columns: repeat(2,1fr);
+            
         }
+        #price2{
+            margin-left: 30px;
+        }
+         .cont2Main1{
+             display: grid;
+            grid-template-columns: repeat(2,1fr); 
+            /* height: 150px;
+            width: 700px; */
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+        #cont2Main{
+            
+            display: flex;
+            flex-direction: row;
+              
+        }
+        .desc{
+            height: 280px;
+
+        }
+        .imgClass{
+            margin-top: 20px;
+            width: 70%;
+
+        }
+        #checkout{
+            background-color: black;
+            color: white;
+            padding: 5px 35px;
+            border-radius: 3px;
+        }
+        #checkoutMain{
+            text-align: center;
+            
+        } 
+
+
 
     </style>
 </head>
@@ -58,22 +110,47 @@
         <p>Shopping Cart</p>
         <div id="main1">
             <div id="cont1">
-                <div id="cont2">
-    
+                <div id="cont2Main">
+                    <div class="cont2Main1">
+                        <div id="imgAppend"></div>
+                        <div id="cont2">
+                        </div>
+                    </div> 
+                    
                 </div>
                 <h3>Things We Know You'll Love</h3>
                 <div id="lovedItems">
-    
                 </div>
                 <h3>Recently Viewed</h3>
                 <div id="recentView">
-    
                 </div>
                 <div >
-    
                 </div>
             </div>
             <div id="priceShow">
+                <div>
+                    <h3>Add a Promo Code</h3>
+                    <div>
+                        <input type="text" id="promoVal"placeholder="Enter Promocode" maxlength="6" />
+                        <button id="promoApply">apply</button>
+                        <p>Note:12% off given to promo code</p>
+                    </div>
+                    <div id="price">
+                        <div id="price1">
+                            <p>Amount in INR :</p>
+                            <p>Promo Code : </p>
+                            <h3>Total Amount in INR :</h3>
+                        </div>
+                        <div id="price2">
+                            <p id="amtMain">0</p>
+                            <p id="promoMain">0</p>
+                            <h2 id="totalMain">0</h2>
+                        </div>
+                    </div>
+                    <div id="checkoutMain" >
+                        <button id="checkout">Check Out</button>
+                    </div>
+                </div>
             
     
             </div>
