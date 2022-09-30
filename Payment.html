@@ -267,39 +267,39 @@
             <div id="bill-form">
                 <div>
                     <p>Email *</p>
-                    <input type="email" placeholder="E-mail">
+                    <input type="email" placeholder="E-mail" id="email">
                 </div>
                 <div>
                     <p>First Name *</p> 
-                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="First Name" id="f_name">
                 </div>
                 <div>
                     <p>Last Name *</p> 
-                    <input type="text" placeholder="Last Name">
+                    <input type="text" placeholder="Last Name" id="l_name">
                 </div>
                 <div>
                     <p>Company</p> 
-                    <input type="text" placeholder="Company">
+                    <input type="text" placeholder="Company" id="company">
                 </div>
                 <div>
                     <p>Address Line 1 *</p> 
-                    <input type="text" placeholder="Address">
+                    <input type="text" placeholder="Address" id="address">
                 </div>
                 <div>
                     <p>Country *</p> 
-                    <input type="text" placeholder="Country Name">
+                    <input type="text" placeholder="Country Name" id="c_name">
                 </div>
                 <div>
                     <p>City *</p> 
-                    <input type="text" placeholder="City">
+                    <input type="text" placeholder="City" id="city">
                 </div>
                 <div>
                     <p>State</p> 
-                    <input type="text" placeholder="State">
+                    <input type="text" placeholder="State" id="state">
                 </div>
                 <div>
                     <p>ZIP Code</p> 
-                    <input type="text" placeholder="ZIP Code" maxlength="6" minlength="6" required>
+                    <input type="text" placeholder="ZIP Code" maxlength="6" minlength="6" required id="zip">
                 </div>
                 <div>
                     <p>Phone #</p> 
@@ -424,44 +424,4 @@
 </body>
 </html>
 
-<script>
-    document.querySelector("#order").addEventListener("click", check);
-
-    function check(elem){
-        event.preventDefault();
-        
-        let card = document.getElementById("card-type").value;
-        let credit = document.getElementById("credit-input").value;
-        let month = document.getElementById("month").value;
-        let year = document.getElementById("Year").value;
-        let code = document.getElementById("secure-code").value;
-
-        if (card === "" || credit === "" || month === "" || year === "" || code ===""){
-            alert("Invalid credentials")            
-            
-        }
-
-        else{
-            myfun(event)
-
-        }
-
-    }
-
-    function myfun(event){
-        event.preventDefault();
-        var otp = prompt("Enter OTP");
-        if(otp === "1234"){
-            window.setTimeout(function() {
-                window.location.href = "final-page.html";
-            }, 3000);
-        }
-        else{
-            alert("Please enter a valid OTP")
-        }
-    }
-
-    document.getElementById("back-cart").addEventListener("click",function(){
-        window.location.href="/cartshow.html"
-    })
-</script>
+<script src="./scripts/payments.js"></script>
