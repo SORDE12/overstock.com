@@ -1,9 +1,6 @@
-
-
-
-likedData=[
-    {
+likedData = [{
         "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/30edd1359639179ab267545062a456d754dfdbac/SAFAVIEH-Handmade-Capri-Ilianka-Wool-Rug.jpg?impolicy=mediumlow",
+
         "amt": "Sale Amount:$35",
         "description": "Name:SAFAVIEH Handmade Capri Ilianka Wool Rug",
         "rating": "Rating:4.5 Star"
@@ -58,8 +55,7 @@ likedData=[
     }
 ]
 
-viewed=[
-    {
+viewed = [{
         "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/56c3c9f2f57395f2743760aa725994c8f0666852/SAFAVIEH-Handmade-Capri-Berntraud-Contemporary-Wool-Rug.jpg?impolicy=mediumlow",
         "amt": "Sale Amount:$60",
         "description": "Name:SAFAVIEH Handmade Capri Berntraud Contemporary Wool Rug",
@@ -115,36 +111,36 @@ viewed=[
     }
 ]
 
-let appendliked=(data)=>{
+let appendliked = (data) => {
 
-    let loved=document.getElementById('lovedItems')
+    let loved = document.getElementById('lovedItems')
 
-    data.forEach((ele)=>{
+    data.forEach((ele) => {
 
-        let img=document.createElement('img')
-        img.src=ele.image
+        let img = document.createElement('img')
+        img.src = ele.image
 
-        let amt=document.createElement('h3')
-        amt.innerHTML=ele.amt
+        let amt = document.createElement('h3')
+        amt.innerHTML = ele.amt
 
-        let des=document.createElement('p')
-        des.innerHTML=ele.description
+        let des = document.createElement('p')
+        des.innerHTML = ele.description
 
-        let rating=document.createElement('p')
-        rating.innerHTML=ele.rating
+        let rating = document.createElement('p')
+        rating.innerHTML = ele.rating
 
-        let btn=document.createElement("button")
+        let btn = document.createElement("button")
 
-        btn.innerText='Add To Cart'
+        btn.innerText = 'Add To Cart'
 
-        btn.setAttribute('class',"div1")
+        btn.setAttribute('class', "div1")
 
-        btn.addEventListener('click',function(){
+        btn.addEventListener('click', function() {
             addToCart()
         })
 
-        let div=document.createElement('div')
-        div.append(img,btn,amt,des,rating)
+        let div = document.createElement('div')
+        div.append(img, btn, amt, des, rating)
 
         loved.append(div)
     })
@@ -154,39 +150,38 @@ appendliked(likedData)
 
 
 
-let appendrecent=(data)=>{
+let appendrecent = (data) => {
 
-    let recent=document.getElementById('recentView')
+    let recent = document.getElementById('recentView')
 
-    data.forEach((ele)=>{
+    data.forEach((ele) => {
 
-        let img=document.createElement('img')
-        img.src=ele.image
+        let img = document.createElement('img')
+        img.src = ele.image
 
-        let amt=document.createElement('h3')
-        amt.innerHTML=ele.amt
+        let amt = document.createElement('h3')
+        amt.innerHTML = ele.amt
 
-        let des=document.createElement('p')
-        des.innerHTML=ele.description
+        let des = document.createElement('p')
+        des.innerHTML = ele.description
 
-        let rating=document.createElement('p')
-        rating.innerHTML=ele.rating
+        let rating = document.createElement('p')
+        rating.innerHTML = ele.rating
 
-        let btn=document.createElement("button")
+        let btn = document.createElement("button")
 
-        btn.innerText='Add To Cart'
+        btn.innerText = 'Add To Cart'
 
-        btn.setAttribute('class',"div1")
+        btn.setAttribute('class', "div1")
 
-        btn.addEventListener('click',function(){
+        btn.addEventListener('click', function() {
             addToCart()
         })
 
-        let div=document.createElement('div')
-        div.append(img,btn,amt,des,rating)
+        let div = document.createElement('div')
+        div.append(img, btn, amt, des, rating)
 
         recent.append(div)
     })
 }
 appendrecent(viewed)
-
