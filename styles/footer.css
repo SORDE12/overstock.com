@@ -1,0 +1,151 @@
+#footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 0px solid red;
+    background-color: #545658;
+    border-top: 200px;
+    padding: 67px;
+}
+
+#footer>div>div>h3 {
+    text-align: left;
+    color: white;
+}
+
+#footer>div>a>div>p {
+    color: antiquewhite;
+}
+
+#footer>div>a>div {
+    padding: 1px;
+}
+
+#footer>div>a {
+    text-decoration: none;
+}
+
+#footer>div>div>a {
+    text-decoration: none;
+}
+
+#footer>div>div {
+    padding: 1px;
+}
+
+#footer>div>div>a>p {
+    color: white;
+}
+
+#lastfoot {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+}
+
+#lastfoot2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#lastfoot>div>p {
+    color: white;
+}
+
+#lastfoot2>div>p {
+    color: white;
+}
+
+#lastfoot2>div>p>span {
+    position: absolute;
+    top: 50;
+    bottom: 50;
+}
+
+
+/* mediaqueries */
+
+@media screen and (min-width:1400px) {
+    #categories {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+        width: 65%;
+        margin: auto;
+    }
+    #offers {
+        width: 60%;
+        border: 0px solid red;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #topbanner {
+        width: 60%;
+        height: 300px;
+        border: 0px solid red;
+        margin: auto;
+        background-image: url("https://t3.ftcdn.net/jpg/02/72/69/76/360_F_272697620_ja4lcvVK2sMNbR65T0R4msIXbp3eMEuw.jpg");
+        background-size: 100% 300px;
+    }
+    #middle {
+        background-image: url("https://t4.ftcdn.net/jpg/02/00/08/01/240_F_200080155_FBrIABz5nO3rz2Ay2Arf7ejKVccupVWu.jpg");
+        background-size: 100% 250px;
+        height: 250px;
+        width: 60%;
+        margin: auto;
+    }
+    #midbanner {
+        width: 60%;
+        height: 300px;
+        background-image: url("https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600");
+        background-size: 100% 300px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width:2000px) {
+    #categories {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+        width: 40%;
+        margin: auto;
+    }
+    #offers {
+        width: 35%;
+        border: 0px solid red;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #topbanner {
+        width: 35%;
+        height: 200px;
+        border: 0px solid red;
+        margin: auto;
+        background-image: url("https://t3.ftcdn.net/jpg/02/72/69/76/360_F_272697620_ja4lcvVK2sMNbR65T0R4msIXbp3eMEuw.jpg");
+        background-size: 100% 200px;
+    }
+    #middle {
+        background-image: url("https://t4.ftcdn.net/jpg/02/00/08/01/240_F_200080155_FBrIABz5nO3rz2Ay2Arf7ejKVccupVWu.jpg");
+        background-size: 100% 150px;
+        height: 150px;
+        width: 35%;
+        margin: auto;
+    }
+    #midbanner {
+        width: 35%;
+        height: 150px;
+        background-image: url("https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600");
+        background-size: 100% 150px;
+        margin-top: 30px;
+    }
+}

@@ -1,5 +1,5 @@
 #side {
-    border: 1px solid red;
+    border: 1px solid white;
     width: 22%;
     height: auto;
 }
@@ -11,7 +11,7 @@
 }
 
 #content {
-    border: 1px solid red;
+    border: 1px solid white;
     width: 58%;
     height: auto;
     background-image: url("https://ak1.ostkcdn.com/img/mxc/07062022_SUMMER_HomeImp_Hero_Desktop.jpg?imwidth=680");
@@ -19,7 +19,7 @@
 }
 
 #content>div {
-    border: 1px solid red;
+    border: 1px solid white;
     width: 200px;
     height: 200px;
     background-color: red;
@@ -46,10 +46,30 @@
     text-align: center;
 }
 
-#content>div>h2 #subcontent {
-    border: 1px solid red;
+#subcontent {
+    border: 1px solid white;
     width: 28%;
     height: auto;
+}
+
+#subcontent>a>div {
+    border: 1px solid white;
+    margin-left: 20px;
+    background-color: rgb(202, 191, 191);
+    height: 49.5%;
+}
+
+#subcontent>a>div>h1 {
+    text-align: center;
+    color: black;
+}
+
+#subcontent>a>div:nth-child(2) {
+    margin-top: 30px;
+}
+
+#subcontent>a {
+    text-decoration: none;
 }
 
 #head {
@@ -62,8 +82,35 @@
 
 #side>div>div>p:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-left: 3px solid red;
 }
 
 #side>div>div {
     margin-left: 10px;
+}
+
+#items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 3, 250px; */
+    height: auto;
+    gap: 10px
+}
+
+#items>a>div>h2 {
+    color: black;
+    text-align: center;
+}
+
+#items>a>div>img {
+    width: 100%;
+    height: 80%;
+}
+
+#items>a>div {
+    background-color: rgb(223, 221, 221);
+}
+
+#items>a {
+    text-decoration: none;
 }
