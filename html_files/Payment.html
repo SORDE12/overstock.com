@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="https://ak1.ostkcdn.com/images/mxc/overstock-favicon-lg.ico" type="image/x-icon">
+    <title>OverStock Clone: Payment Page</title>
+
 </head>
 <style>
     
@@ -224,6 +226,34 @@
         background-color: rgb(78, 145, 78);
         color: white;
     }
+    #payment_summary{
+        border:2px solid gray ;
+        margin-bottom: 10px;
+        height: auto;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5vh;
+    }
+    #payment_summary>h3{
+        margin-left: 100px;
+        background-color: rgb(133, 146, 146);
+    }
+  
+    #flex-1 {
+        display: flex;
+        margin: auto;
+        width: 60%;
+        height: auto;
+        justify-content: space-between;
+    }
+    #value{
+        margin-left: 300px;
+    }
+    #value>p{
+       margin-bottom: 10px;
+       
+    }
+
 
 
 </style>
@@ -312,7 +342,29 @@
         </div><br>
 
         <!-- =========================================================================== -->
+         <div id="payment_summary">
+            
+            <h3>Order Summary</h3>
+            <div id="flex-1">
+                <div>
+                    <p>Subtotal:</p>
+                    <p>Shipping:</p>
+                    <p>Duty and Tax</p>
+                    <p>Loss and Damage Protection Remove</p>
+                    <p>Order Total</p>
+                </div>
+                <div id="value">
+                    <p id="sub_total">0</p>
+                    <p id="shipping">0</p>
+                    <p id="tax">0</p>
+                    <p id="loss">0</p>
+                    <h3 id="o_total">0</h3>
 
+                </div>
+            </div>
+            
+
+         </div>
         <div id="payment">
             <div id="pay-head">Payment Information</div>
             <div>
@@ -424,4 +476,4 @@
 </body>
 </html>
 
-<script src="./scripts/payments.js"></script>
+<script src="../scripts/payments1.js"></script>

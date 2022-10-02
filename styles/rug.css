@@ -1,0 +1,235 @@
+#less_deals+div {
+    /* border: 1px solid red; */
+    padding: 1.5% 0 1.5% 0;
+    padding-left: 64px;
+}
+#less_deals+div h3 {
+    width: 20%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+}
+#main {
+    display: flex;
+    width: 98%;
+    height: 100vh;
+}
+
+#side {
+    /* border: 1px solid ; */
+    width: 22%;
+    height: auto;
+    margin-left: 64px;
+}
+
+#side>div>h1 {
+    /* border: 1px solid blue; */
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#side>div>div {
+    margin-left: 10px;
+}
+
+#side>div>div>p {
+    font-size: 15px;
+    /* border: 1px solid; */
+    padding: 10px 0px 10px 5px;
+    line-height: 13px;
+}
+
+#side>div>div>p:hover {
+    background-color: #eee;
+    border-left: 2px solid #0272A2;
+}
+
+#side>div>div>#sdl:hover {
+    border-left: 2px solid #C7202C;
+}
+
+
+#content {
+    border: 1px solid white;
+    width: 58%;
+    height: auto;
+    background-image: url("https://ak1.ostkcdn.com/img/mxc/09262022_Desktop_Rugs_Balta.jpg?imwidth=680");
+    background-size: 100% 100%;
+}
+
+#content>div {
+    /* border: 1px solid white; */
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 5px;
+}
+
+#content>div>h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+#content>div>p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    /* border: 1px solid blue; */
+    margin-top: -13px;
+}
+
+#content>div>button {
+    background-color: red;
+    border: 1px solid white;
+    width: 50%;
+    color: white;
+    padding: 7px;
+    margin-left: 50px;
+    border-radius: 5px;
+
+}
+
+#subcontent {
+    border: 1px solid white;
+    width: 28%;
+    height: auto;
+}
+#subcontent>a>div {
+    border: 1px solid white;
+    margin-left: 20px;
+    background-color: #ddd;
+    width: auto;
+    height: 50%;
+
+}
+
+#subcontent>:first-child>div {
+    background-color: #CEE8FF;
+}
+#subcontent>:first-child+a>div>img{
+    margin-top: 30%;
+}
+#subcontent>a>div>p {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+#subcontent>a {
+    text-decoration: none;
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#container>div {
+    background-color: #F5F6F7;
+}
+
+#container>div>img {
+    width: 100%;
+}
+
+#container>div>p {
+    text-align: center;
+}
+#container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#container2>div {
+    background-color: #F5F6F7;
+}
+
+#container2>div>img {
+    width: 100%;
+}
+
+#container2>div>p {
+    text-align: center;
+}
+#container3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#container3>div {
+    background-color: #F5F6F7;
+}
+
+#container3>div>img {
+     width: 100%;
+   }
+
+#container3>div>p {
+    text-align: center;
+}
+.ch_patio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 64px;
+    margin-right: 30px;
+    margin-top: 10vh;
+    /* border: 1px solid; */
+}
+
+.ch_patio>div {
+    line-height: 25px;
+}
+.ch_patio>div>p{
+    font-size: 14px;
+}
+
+.ch_patio>div>button {
+    padding: 10px;
+    background-color: white;
+    /* border: 1px solid; */
+    border-radius: 5px;
+}
+#red_div{
+    margin-left: 64px;
+    margin-right: 30px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    /* border: 1px solid; */
+}
+#red_div>div {
+   background-color: red;
+   color:#ffffff;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#red_div>div>:first-child{
+    /* border: 1px solid; */
+    font-size: 30px;
+    margin-bottom: -14px;
+}
+#red_div>div>:nth-child(2){
+    font-size: 36px;
+}
+
+#container4 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+#container4>div>img {
+    width: 100%;
+}
+
+#container4>div>p {
+    text-align: center;
+}
