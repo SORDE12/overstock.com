@@ -54,5 +54,22 @@ function myfun(event){
 
 
 
+let totalAmt=localStorage.getItem('amount')||0
+
+let shipping = document.getElementById("shipping");
+shipping.innerText=totalAmt;
+
+let tax = document.getElementById("tax");
+let a=totalAmt*18/100;
+tax.innerText=a;
+
+let loss = document.getElementById("loss");
+let b=totalAmt*5/100;
+loss.innerText=b;
+
+
+let total = document.getElementById("o_total");
+total.innerText=totalAmt+a+b;
+
 
 
