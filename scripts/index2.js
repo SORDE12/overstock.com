@@ -1,4 +1,4 @@
-import {header,navbar,less_deal} from "./components/navbar.js";
+import {header,navbar,less_deal} from "../components/navbar.js";
 
 const head_div = document.getElementById('header');
 head_div.innerHTML=header()
@@ -8,3 +8,5 @@ nav_div.innerHTML=navbar()
 
 const lessdeal = document.getElementById('less_deals');
 lessdeal.innerHTML=less_deal()
+
+

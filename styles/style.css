@@ -292,7 +292,7 @@ h3 {
 
 /* mediaqueries */
 
-@media screen and (min-width:1400px) {
+/* @media screen and (min-width:900px) {
     #footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -482,4 +482,4 @@ h3 {
         grid-template-columns: repeat(1, 1fr);
         width: 35%;
     }
-}
+} */

@@ -13,34 +13,34 @@ const header=()=>{
 <!-- nav2 -->
 <div id="nav2">
     <p>Ships to:</p>
-    <img src="./images/indiaflag.png" alt="india flag image">
+    <img src="../images/indiaflag.png" alt="india flag image">
     <p>INDIA</p>
 </div>`
 }
 
 const navbar=()=>{
     return` <div id="nav3">
-    <div id="left_d">
-        <img src="./images/os_icon.png" alt="">
+    <a href="index.html"><div id="left_d">
+        <img src="../images/os_icon.png" alt="">
         <p>overstock</p>
-    </div>
+    </div></a>
     <div id="center_d">
         <form action="">
             <input type="text" id="query" placeholder="Search... everything you find ships for free ">
-            <button><img src="./images/Search-1.png" alt=""></button>
+            <button><img src="../images/Search-1.png" alt=""></button>
         </form>
     </div>
     <div id="right_d">
-        <div id="user">
-            <img src="./images/User.png" alt="user image">
+        <div id="user" onClick="sign()">
+            <img src="../images/User.png" alt="user image">
             <p>Account</p>
         </div>
         <div id="heart">
-            <img src="./images/Heart.png" alt="heart image">
+            <img src="../images/Heart.png" alt="heart image">
             <p>Lists</p>
         </div>
-        <div id="cart">
-            <img src="./images/Cart Empty.png" alt="bucket image">
+        <div id="cart" onClick='cart()'>
+            <img src="../images/Cart Empty.png" alt="bucket image">
             <p>Cart</p>
         </div>
     </div>
@@ -52,7 +52,7 @@ const navbar=()=>{
             <div id="dropdown_list">
                 <div>
                     <ul>
-                        <li> <a href="">
+                        <li> <a href="cartpage1.html">
                                 <h4>Living Room Furniture</h4>
                             </a></li>
                         <li><a href="">Sofas & Couches</a></li>
@@ -153,7 +153,7 @@ const navbar=()=>{
             <div id="dropdown_list">
                 <div>
                     <ul>
-                        <li> <a href="">
+                        <li> <a href="cartpage1.html">
                                 <h4>Area Rugs By Size</h4>
                             </a></li>
                         <li><a href="">3' x 5'</a></li>
@@ -254,7 +254,7 @@ const navbar=()=>{
             <div id="dropdown_list">
                 <div>
                     <ul>
-                        <li> <a href="">
+                        <li> <a href="cartpage1.html">
                                 <h4>Mirrors</h4>
                             </a></li>
                         <li><a href="">Wall Mirrors</a></li>
@@ -355,12 +355,12 @@ const navbar=()=>{
             </div>
         </div>
     </li>
-    <li id="bed"><a href="">Bedding</a>
+    <li id="bed"><a href="mat.html">Bedding</a>
         <div>
             <div id="dropdown_list">
                 <div>
                     <ul>
-                        <li> <a href="">
+                        <li> <a href="cartpage1.html">
                                 <h4>Bedding Sets</h4>
                             </a></li>
                         <li><a href="">Comforters and Sets</a></li>
@@ -451,12 +451,12 @@ const navbar=()=>{
             </div>
         </div>
     </li>
-    <li id="home"><a href="">Home Improvement</a>
+    <li id="home"><a href="home.html">Home Improvement</a>
         <div>
             <div id="dropdown_list">
                 <div>
                     <ul>
-                        <li> <a href="">
+                        <li> <a href="cartpage1.html">
                                 <h4>Kitchen</h4>
                             </a></li>
                         <li><a href="">Ranges & Ovens</a></li>
@@ -544,12 +544,12 @@ const navbar=()=>{
             </div>
         </div>
     </li>
-    <li id="kitchen"><a href="">Kitchen</a>
+    <li id="kitchen"><a href="decor.html">Kitchen</a>
         <div>
             <div id="dropdown_kitchen">
                 <div>
                     <ul>
-                        <li> <a href="">
+                        <li> <a href="cartpage1.html">
                                 <h4>Dinnerware</h4>
                             </a></li>
                         <li><a href="">Dinnerware Sets</a></li>
@@ -652,12 +652,12 @@ const navbar=()=>{
             </div>
         </div>
     </li>
-    <li id="outdoor"><a href="">Outdoor</a>
+    <li id="outdoor"><a href="decor.html">Outdoor</a>
         <div>
             <div id="dropdown_kitchen">
                 <div>
                     <ul>
-                        <li> <a href="">
+                        <li> <a href="cartpage1.html">
                                 <h4>Patio Furniture</h4>
                             </a></li>
                         <li><a href="">Patio Furniture Sets</a></li>
@@ -760,12 +760,12 @@ const navbar=()=>{
             </div>
         </div>
     </li>
-    <li id="lighting"><a href="">Lighting</a>
+    <li id="lighting"><a href="light.html">Lighting</a>
         <div>
             <div id="dropdown_kitchen">
                 <div>
                     <ul>
-                        <li> <a href="">
+                        <li> <a href="cartpage1.html">
                                 <h4>Ceiling Lights</h4>
                             </a></li>
                         <li><a href="">Chandeliers</a></li>
@@ -856,12 +856,12 @@ const navbar=()=>{
             </div>
         </div>
     </li>
-    <li id="kids"><a href="">Kids & Baby</a>
+    <li id="kids"><a href="light.html">Kids & Baby</a>
         <div>
             <div id="dropdown_kids">
                 <div>
                     <ul>
-                        <li> <a href="">
+                        <li> <a href="cartpage1.html">
                                 <h4>Kids Furniture</h4>
                             </a></li>
                         <li><a href="">Kids Beds</a></li>
@@ -958,12 +958,12 @@ const navbar=()=>{
             </div>
         </div>
     </li>
-    <li id="more"><a href="">More</a>
+    <li id="more"><a href="furniture.html">More</a>
         <div>
             <div id="dropdown_kids">
                 <div>
                     <ul>
-                        <li> <a href="">
+                        <li> <a href="cartpage1.html">
                                 <h4>Holiday</h4>
                             </a></li>
                         <li><a href="">Valentines Day</a></li>
@@ -1054,12 +1054,12 @@ const navbar=()=>{
             </div>
         </div>
     </li>
-    <li id="idea"><a href="">Ideas</a>
+    <li id="idea"><a href="mat.html">Ideas</a>
         <div>
             <div id="drop_idea">
                 <div>
                     <ul class="center_idea">
-                        <li> <a href="">
+                        <li> <a href="cartpage1.html">
                                 <h3>More Ways to Shop</h3>
                             </a></li>
                     </ul>
@@ -1118,12 +1118,12 @@ const navbar=()=>{
             </div>
         </div>
     </li>
-    <li id="sales"><a href=""  style="color:#C7202C;">Sales & Deals</a>
+    <li id="sales"><a href="rug.html"  style="color:#C7202C;">Sales & Deals</a>
         <div>
             <div id="drop_sale">
                 <div id="set_img">
                     <ul >
-                        <li><a href=""> <img src="./images/sales.png" alt="" /></a></li>
+                        <li><a href="cartpage1.html"> <img src="./images/sales.png" alt="" /></a></li>
                     </ul>
                 </div>
                 <div>
@@ -1168,6 +1168,7 @@ const less_deal=()=>{
     <p> HALLOWEEN,ARMOIRES,BARREL CHAIRS,PERSIAN RUGS</p>
 </div>`
 }
+
 
 
 export {header,navbar,less_deal}

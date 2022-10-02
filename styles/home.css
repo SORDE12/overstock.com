@@ -29,7 +29,6 @@
 #content>div>button {
     background-color: red;
     border: 1px solid white;
-    position: absolute;
     color: white;
     padding: 5px;
     margin-left: 50px;

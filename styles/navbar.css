@@ -80,6 +80,9 @@ nav {
 
     background-color: #ffffff;
 }
+#nav3>a{
+    text-decoration: none;
+}
 
 #left_d {
     width: 11.3%;
