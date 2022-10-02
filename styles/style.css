@@ -292,7 +292,7 @@ h3 {
 
 /* mediaqueries */
 
-/* @media screen and (min-width:900px) {
+/* @media screen and (min-width:1008px) {
     #footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -373,10 +373,10 @@ h3 {
         border-bottom: 500px;
         width: 65%;
         margin: auto;
-    }
-}
-
-@media screen and (min-width:2000px) {
+    } */
+/* } */
+/* 
+@media screen and (min-width:640px) {
     #trending {
         display: grid;
         grid-template-columns: repeat(1, 1fr);

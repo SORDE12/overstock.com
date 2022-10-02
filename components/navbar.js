@@ -13,7 +13,7 @@ const header=()=>{
 <!-- nav2 -->
 <div id="nav2">
     <p>Ships to:</p>
-    <img src="../images/indiaflag.png" alt="india flag image">
+    <img src="./images/indiaflag.png" alt="india flag image">
     <p>INDIA</p>
 </div>`
 }
@@ -21,26 +21,26 @@ const header=()=>{
 const navbar=()=>{
     return` <div id="nav3">
     <a href="index.html"><div id="left_d">
-        <img src="../images/os_icon.png" alt="">
+        <img src="./images/os_icon.png" alt="">
         <p>overstock</p>
     </div></a>
     <div id="center_d">
         <form action="">
             <input type="text" id="query" placeholder="Search... everything you find ships for free ">
-            <button><img src="../images/Search-1.png" alt=""></button>
+            <button><img src="./images/Search-1.png" alt=""></button>
         </form>
     </div>
     <div id="right_d">
         <div id="user" onClick="sign()">
-            <img src="../images/User.png" alt="user image">
+            <img src="./images/User.png" alt="user image">
             <p>Account</p>
         </div>
         <div id="heart">
-            <img src="../images/Heart.png" alt="heart image">
+            <img src="./images/Heart.png" alt="heart image">
             <p>Lists</p>
         </div>
         <div id="cart" onClick='cart()'>
-            <img src="../images/Cart Empty.png" alt="bucket image">
+            <img src="./images/Cart Empty.png" alt="bucket image">
             <p>Cart</p>
         </div>
     </div>
