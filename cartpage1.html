@@ -29,7 +29,6 @@
             width: 90%;
         }
         #cont1{
-            border: 1px solid black;
             flex: 3;
 
         }
@@ -46,7 +45,7 @@
             width: 100%;
         }
         #priceShow{
-            border: 1px solid black;
+            
             flex: 1;
             padding-left: 10px;
             padding-right: 10px;
@@ -54,7 +53,6 @@
         #main1{
             display: flex;
             height: auto;
-            border: 1px solid;
             margin-top: 10px;
         }
 
@@ -66,6 +64,38 @@
         #price2{
             margin-left: 30px;
         }
+         .cont2Main1{
+             display: grid;
+            grid-template-columns: repeat(2,1fr); 
+            /* height: 150px;
+            width: 700px; */
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+        #cont2Main{
+            
+            display: flex;
+            flex-direction: row;
+              
+        }
+        .desc{
+            height: 280px;
+
+        }
+        .imgClass{
+            margin-top: 20px;
+            width: 70%;
+
+        }
+        #checkout{
+            background-color: black;
+            color: white;
+            padding: 5px 35px;
+            border-radius: 3px;
+        }
+        #checkoutMain{
+            text-align: center;
+            
+        } 
 
 
 
@@ -80,8 +110,13 @@
         <p>Shopping Cart</p>
         <div id="main1">
             <div id="cont1">
-                <div id="cont2">
-    
+                <div id="cont2Main">
+                    <div class="cont2Main1">
+                        <div id="imgAppend"></div>
+                        <div id="cont2">
+                        </div>
+                    </div> 
+                    
                 </div>
                 <h3>Things We Know You'll Love</h3>
                 <div id="lovedItems">
@@ -96,21 +131,24 @@
                 <div>
                     <h3>Add a Promo Code</h3>
                     <div>
-                        <input type="text" placeholder="Enter Promocode" maxlength="6" />
-                        <button>apply</button>
-                        <p>Note:10% off given to promo code</p>
+                        <input type="text" id="promoVal"placeholder="Enter Promocode" maxlength="6" />
+                        <button id="promoApply">apply</button>
+                        <p>Note:12% off given to promo code</p>
                     </div>
                     <div id="price">
                         <div id="price1">
                             <p>Amount in INR :</p>
-                            <p>Promocode  </p>
-                            <h3>Total Amount in INR</h3>
+                            <p>Promo Code : </p>
+                            <h3>Total Amount in INR :</h3>
                         </div>
                         <div id="price2">
-                            <p id="amtMain">100</p>
-                            <p>10</p>
-                            <h2>70</h2>
+                            <p id="amtMain">0</p>
+                            <p id="promoMain">0</p>
+                            <h2 id="totalMain">0</h2>
                         </div>
+                    </div>
+                    <div id="checkoutMain" >
+                        <button id="checkout">Check Out</button>
                     </div>
                 </div>
             
@@ -124,6 +162,6 @@
     
 </body>
 </html>
-<script src="cartpage.js" >
+<script src="cartpage1.js" >
 
 </script>
