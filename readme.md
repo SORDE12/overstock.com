@@ -1,9 +1,22 @@
 
 
-<h1 align="center">Overstock</h1>
+<h1 >Overstock</h1>
 Urban Company provides a platform that allows skilled and experienced professionals to connect with users looking for specific services.
 
-<h3 align="center">It's a react E-commerce web application with all the major functionalities</h3>
+
+<h3 >It's a react E-commerce web application with all the major functionalities</h3>
+
+
+
+### It is an Collaborative Project.
+### Collaborators
+1. Omkar Sorde (Team-Lead)
+2. Manish Wadhe
+3. Kamal Gupta
+4. Reddyvari Tejeshkumarreddy
+
+
+Project link -> https://splendorous-cassata-934075.netlify.app/cartpage1.html
 
 <br />
 
